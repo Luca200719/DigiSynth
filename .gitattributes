@@ -1,0 +1,20 @@
+[attr]lfs filter=lfs diff=lfs merge=lfs -text
+*.bmp lfs
+*.gif lfs
+*.ico lfs
+*.jpg lfs
+*.jpeg lfs
+*.png lfs
+*.psd lfs
+*.tga lfs
+*.tif lfs
+*.tiff lfs
+*.wav lfs
+*.mp3 lfs
+*.ogg lfs
+*.fbx lfs
+*.obj lfs
+*.unitypackage lfs
+*.dll lfs
+*.asmdef unity-json
+*.inputactions unity-json
