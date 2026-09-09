@@ -1,24 +1,9 @@
 fileFormatVersion: 2
-guid: d55563a7bf4fcb44986d9add0b126e8d
+guid: 6fb6d9e0895ec6c4db4666720cf6d200
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Black Keys
-    second: {fileID: 2100000, guid: 16f92ef3c9700ee4aa1cfcb7c6afd9b8, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Body
-    second: {fileID: -876546973899608171, guid: b6ebe3190f4c56949b2b0872405fed6f, type: 3}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Wood
-    second: {fileID: 2100000, guid: 24eafa4b6ddfa3f4baff6ba400e2df7b, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -50,7 +35,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importPhysicalCameras: 1

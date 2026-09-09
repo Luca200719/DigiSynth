@@ -81,7 +81,11 @@ public class SceneLoader : MonoBehaviour {
 
         operation.allowSceneActivation = true;
 
-        while (SceneManager.GetActiveScene().buildIndex != 1 && !videoPlayer.isPrepared) {
+        while (SceneManager.GetActiveScene().buildIndex != 1) {
+            yield return null;
+        }
+
+        while (!videoPlayer.isPrepared) {
             yield return null;
         }
 
@@ -197,7 +201,7 @@ public class SceneLoader : MonoBehaviour {
         }
 
         videoPlayer.Play();
-        
+
         if (!firstTime) {
             StartCoroutine(FadeInSkipVideo());
         }
